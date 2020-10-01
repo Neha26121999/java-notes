@@ -1,0 +1,9 @@
+                          Methods
+A set of codes which perform a particular task.
+
+Advantages of method:
+1.code reusability
+2. code optimization
+
+Syntax:
+  access-modifier return-type methodName(list of parameters)

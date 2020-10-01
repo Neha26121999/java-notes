@@ -1,0 +1,36 @@
+                  Static keyword
+
+Non Acsess Modifiers
+1.static 
+2.final
+3.abstract
+4.synchronized
+Static keyword is a non access modifier.
+1.class level variable can be a static  variable but local variables cannot be a static.
+2) class variable directly access from the class there is no need of creating the object.
+3) Static variables are used for memory management
+
+The Static variable can be used to refer to the common property or value for all objects,
+for example: company name of employess,college name of students etc
+
+we can call static method directly without creating object.
+
+class Testt
+{
+  static void display()
+  {
+     System.out.println("1");
+  }
+  public static void main(String args[])
+  {
+     Testt.display();
+  }
+}
+
+Rules for static method
+
+1. static methods belong to the class not to the object
+2. a static method can be accessed directly by classname.there is no need for creating any object.
+3. A static method can access only static data it cannot access not static data.
+4. A static mathod can callonly other static methods and cannot call a non-static method.
+5.A static method cannot refer to this or super keyword anyway.

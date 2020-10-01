@@ -1,0 +1,9 @@
+                     Anonoymous array
+Those arrays which not have any name called annonoymous arrays.
+example:  new int[]{10,20};
+Anonymous arrays can be 1D or multidimensional...
+1.array without name
+2.created & initialized in single line
+3.it can be single or multidimensional
+4.it can be used only once
+5.it can be use as an argument in method

@@ -1,0 +1,15 @@
+                      Constructor
+
+1) is a block(similar to method) having same name as that of class name.
+
+2)Does not have any return type, not even void.
+
+3) The only modifiers are public, protected, default, private are applicable on constructor.
+
+4)it executes automatically when we create object.there is no need to call them seprately.
+
+5) constructors are used to initialize the object.
+
+There are three types of constructors
+1.Default constructor: (no-arg constructor) - this constructor will create by compiler there is no role of jvm.
+

@@ -1,0 +1,41 @@
+                                                            Collections & Generics
+
+Difference between arrays and collections:
+
+1: The size of array is fixed but collections size increase or decrease at run time.
+2:  Arrays are fast but collections are quite slow.
+3:  In array we will specified data types so we can store only one type of data but in collection we can store all of type of data simultaneously.
+4.One problem with collections is it is not work with index number.
+
+Basically collections are of three types
+1.collection: Basically this is a concept. this like this is a collection of elements.
+2.Collection : Interface
+3. Collections : it is a class.
+
+ Syntax for the collection:
+                                 Collection values= new Arraylist();
+                                  Here the Collection is interface and we does not create object of any interface.so we will apply arraylist.
+ArrayList: here Arraylist is the list which indirectly apply collections. Hierarchy  will be
+                                                                   Collections (Interface)
+                                                                         |
+                                                                      List( 
+                                                                        |
+                                                                      Arraylist(class which implements list and list extends collections)
+
+
+
+
+                                                                     Generics
+
+In Generics we will only specify the the sepecific data type.
+                                                           Collection<Integer> values= new Arraylist<>();
+                 here we have problem that we are not specify the index number. so here instead of collection we will use List(which extends 
+               Collections have some extra features) or set.
+
+
+
+Agar hum generics(specify karna ki data hai kis type ka) use nii karenge to indexing possible nii ho paayegi collection ke sath 
+kuki usme bahut se data types honge.
+
+                              
+

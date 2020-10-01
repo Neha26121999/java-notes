@@ -1,0 +1,37 @@
+                          2D Array
+1.Declaration:  
+                       int[][] a;
+                       int[] []a;
+                       int a[][];
+                       int[] a[];
+   a)int[][] a,b;
+    a:2-D
+    b:2-D
+  b) int[] a[],b;
+      a-2D
+      b-1D
+   c) int[] a[],b[];
+        a-2D
+         b-2D
+    d) int[][] a,b[];
+          a-2D
+          b-3D
+    e) int[][] a,[]b;
+       a-2D
+        b-compile time error
+
+2) Creation of 2D array-
+              a=new int[2][3];
+
+    Jagged array: those arrays in which we only provide no. of rows but not no. of columns.
+
+3) Initialization of array:
+                 a[0][0]=10;
+                 a[0][1]=20;
+                  a[1][0]=40;
+       int[][] a=new int[2][3]; 
+all above two steps(declaration and creation) in single statement
+        int[][] a={{10,20,30},{40,50,60}};
+all above three steps(declaration and creation,initialization) in single statement
+
+

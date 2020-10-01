@@ -1,0 +1,20 @@
+         Difference between final finally and finalize
+ 1) final :
+a) it is a keyword
+b) use with variable,method,class
+c) if variable  is final then the variable become constant
+d) if method is final then it will not overirde
+e) final class cannot be inherit
+
+2) finally
+a) it is a block
+b) it is use with either try or try-catch block
+
+
+3) finalize
+a) it is a method
+b) method is override for an object
+c) finalize block executes just prior garbage collection
+
+
+  

@@ -1,0 +1,7 @@
+     == operator and .equals method
+
+1. == operator is used for address comparison 
+
+2. .equals method is used for value at address comparison.
+
+equals method is from object class.and when our method is inherit object class it will inherit equlas method.

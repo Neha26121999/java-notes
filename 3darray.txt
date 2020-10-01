@@ -1,0 +1,20 @@
+               3D Array
+1)Declare:
+             int[][][] a;
+             int[] []a[];
+             int [][]a[];
+             int []a[][];
+2) Create:
+              int[][][] a;
+              a=new int[2][][];
+              a[0]=new int[2][];
+              a[0][0]=new int[3];
+              a[0][1]=new int[2];
+              a[1]=new int[2][];
+              a[1][0]=new int[2];
+               a[1][1]=new int[3];
+        int[][][] a=new int[2][3][2];
+3)Initialization:
+            int[][][] a={{{10,20},{20,30},{30,40,59,79}}};
+     
+

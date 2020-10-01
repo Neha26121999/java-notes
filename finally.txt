@@ -1,0 +1,31 @@
+                             Finally block
+1) if exception occurs then firstly try block executes after try catch block then finally block executes.
+
+2) if exception not occurs then after try directly finally block executes.
+
+3) finally is those type of which is always executes after try whether the exception occurs or not.
+
+uses of finally block
+1) try
+{
+   //risky code
+}
+catch
+{
+   //handling code
+}
+finally
+{
+    //cleanup code
+   // close
+}   
+jo resources hum try ke andar kholte hain unko hum finally ke andar close karte hai.
+if any exception occurs while reading or writing a file,hen below code will not execute and thus resource will not close.
+
+4) one program have only one finally block..and multiple catch blocks..
+
+5) There are four cases in which finally block will not execute   aftr try block
+1)Using of the System.exit() method
+2) causing a fatal error that causes the process to abort
+3) Due to an exception arising in the finally block
+4) the death of the thread

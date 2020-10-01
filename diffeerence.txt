@@ -1,0 +1,9 @@
+                  Difference between Throw and Throws
+
+1)checked exception ke case mai throws keyword use hota hai.unchecked exceptions ke throw keyword
+2)throw keyword creates exception object manually(by program)and handover to jvm.
+throws keyword is used to declare the exception. it gives an information to the caller method that there may exception in caller method so that it could be handle it properly.
+3)throw keyword se bass ek hii exception throw hota hai jabki hum throws keyword se kitne bhi exception throw kraa sakte hai
+4)throw keyword hamesha method ke andar aata hai. throws hamesha method ke sath aata hai.
+5) throw keyword uses new keyword but throws keyword is followed by this
+6) we cannot write any statement after throw keyword because it does not executes..but this is not true with throws

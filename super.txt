@@ -1,0 +1,71 @@
+                             Super Keyword
+
+super keyword refers to the parent class object.
+
+Uses of super keyword:
+1. super keyword can be used to refer immediate parent class instance variable.
+class Superr
+{
+   int i=10;
+}
+class B extends Superr
+{
+   int i=20;
+   void show(int i)
+   {
+       System.out.println(i);
+	   System.out.println(this.i);
+	   System.out.println(super.i);
+   }
+   public static void main(String args[])
+   {
+      B b=new B();
+	  b.show(22);
+   }
+   
+}
+
+2. super keyword can be used to invoke immediate class method.
+class Ai
+{
+  void m1()
+  {
+	  System.out.println("i m programmer");
+  }
+ }
+class B extends Ai
+{
+     
+	  void show()
+	  {
+	    super.m1(); 
+	  }
+	  public static void main(String args[])
+	  {
+	     B ob=new B();
+         ob.show();		 
+	  }
+}
+
+3. super() can be used to invoke immediate parent class 
+constructor.
+
+class Supp
+{
+  Supp()
+  {
+  System.out.println("programmer loves programming");
+  }
+ }
+ class B extends Supp
+ {
+    B()
+	{
+	   System.out.println("coding is lob");
+	}
+	public static void main(String args[])
+	{
+	   B ob=new B();
+	   
+	}
+ }

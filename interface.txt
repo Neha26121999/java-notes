@@ -1,0 +1,8 @@
+                             Interfaces
+
+1} It is used to achieve abstraction.
+2} it supports multiple inheritance.
+3} it can be used to achieve loose coupling.
+
+Interfaces are the blueprint of the class it specify what a class must do and not how.
+In interface all the methods are always abstract and public.

@@ -1,0 +1,14 @@
+          Abstraction & Encapsulation
+
+Abstraction :
+
+1.Abstraction is detail hiding(implementation hiding)
+2. Data Abstraction deals with exposing the interface to the user and hiding the details of implementation.
+
+Encapsulation:
+1. Encapsulation is data hiding (information hiding)
+2.Encapsulation groups together data and methods that act upon data and methods that act upon the data.
+
+Abstraction can be acheive through 
+1.Abstract class(0-100%)
+2.Interfaces(100%)

@@ -1,0 +1,64 @@
+                        Types of Array
+
+There are 2 types of array
+1) Single Dimensional -  1D array
+2) Multidimesional array- 2D,3D array(Array of Arrays)
+
+1.Declaration of an Array:
+              String a[ ];
+               int a[ ];
+               int[ ] a;- Most preferred
+               int [ ]a;  in [] mai kabhi bhi size declare nii karte..
+At the time of Declaration we will not declare the size of array it will give the error
+Question: They are Same or not??
+1)  int[ ] a,b;
+2)  int [ ]a,b;
+3) int a[ ],b;
+
+Answer: In case 1 and 2 if we add brackets before variables they are bydefault arrays..means a,b both arrays in 1 and 2.
+but in 3 a is array and b is simpl variablre.
+
+2) Creation of Array:
+                                     int[ ] a; - declaration of array
+                                       a= new int[3];   - creation of array(At the time of creation of array it is compulsory to give the size of array.
+
+                 single line for declaration and creation both
+
+                                     int a[  ]=new int[3]
+                     size of array cannot be negative it will give an arrayindex error..it will compile but give runtime exception but if size is 0
+                       then it will compile and run correctly
+
+3) Initializating the array:
+                                          jaise hii declare karne ke baad create karte hai to array to create ho jata hai but bydefault ye har ek index pe 
+                                          zero value le leta hai..for replacing the default value we will initialize the array
+                                        a[0]=10; hence the bydefault value(0) will be replace by 10
+                                         a[1]=20;
+         size se jyada index pe value rakhne pe arrayindexoutofbounds exception aayega..
+         all three steps in single line'
+                                              int[ ] a={10,20,30};
+                                              here size is not initialized bydefault zero and take size automatially
+                                             int[ ] a=new int{10,20,30 };
+
+4) Retrieve the values:  
+                   for(int i=0;i<a.length;i++)
+    {
+          SOP(a[i]);
+     }
+
+another way in java to retrieve the value of array by using foreach block
+  for(datatype variable-name:array/collection)
+{
+               //syntax
+}
+
+
+for(int i:a)
+{
+   Sop(i);
+}
+
+                                                
+
+
+
+

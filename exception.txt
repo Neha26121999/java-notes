@@ -1,0 +1,32 @@
+Object class is the parent class of all the classes in java. and Throwable is the parent class of Exception class and error.
+
+Difference between error and exception:
+1)Errors are occured because of lacke of system resources, not by our programs and thus programmer cannot do anything.
+Exception occurs because of our program
+
+2) Exception are recoverable but error are not recoverable.
+
+3) Exception are of two types
+1. compile time exception(checked exception)
+2. runtime exception(unchecked exception)
+error is only one type
+1. runtime error
+
+Exception are of these types:
+
+compile time exception
+1.classNotfound Exception
+2. NoSuchMethod exception
+3.IOException
+4. SQLException
+5.RemoteException
+
+runtime exception
+1. Arithmetic exception
+2. ClassCastException
+3.NullPointerException
+4.IndexOutOfBoundException
+5) IllegelArgumentException
+
+checked exception: aisi exception jinko compiler check kar sakta hai. unko checked exception kehte hai.
+unchecked exception: aisi exception jinko compiler check nhi kar sakta jo seedha runtiime pe aati hi unko unchecked exception kaehte hai.saare exceptions runtime pe hii aate hai..compile time pe compiler bass ek warning deta hai..

@@ -1,0 +1,27 @@
+                      Inheritance
+It is inheriting the properties of parent class into child class
+OR 
+Inheritance isthe procedure by which one object acquires all the properties and behaviours of a parent class. 
+
+Advantages:
+1.code reusability
+2.we can achieve polymorphish through inheritance
+
+Disadvantage:
+classes are tightly coupled.so when we change in one class it will change all classes.
+
+              Types of Inheritance
+1.Single
+2.Multilevel
+3.hiersarical
+4.Multiple(because java only support one super class)
+5.Hybrid(hybrid inheritance is a combination of above 4 inheritance but java does not support multiple inheritance so it is not support hybrid)
+
+Java only supports 3 types of inheritance
+single,multilevel,hierarical
+
+but saari properties ek class kii dusri class se inherit nii hoti..
+for example 
+1. agar hum ek class ka constructor bnaate hai to wo kabhi dusri class se inherit nii hota..
+2. agar method private ho to wo bhi kabhi inherit nii hota
+

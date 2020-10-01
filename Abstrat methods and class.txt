@@ -1,0 +1,8 @@
+                        Abstract Method
+
+1)A method without body (no implementation) is known as 
+abstract method.
+2) if any class have abstract method than it is compulsory to make this class abstract.but vice versa is not true.
+3) if a regular class extends an abstract class, then the class must have implement all the abstract methods of abstract parent class or it has to be declared abstract as well.
+4) Abstract methods in an abstract class are meant to overridden in derived concreate classes otherwise compile time error will be thrown.
+5) Abstract classes cannot be instantiated,means we cant create n object of abstract class..

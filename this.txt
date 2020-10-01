@@ -1,0 +1,111 @@
+                           This keyword
+
+Uses of This Keyword
+
+1)This keyword refers to the current class instance variable..
+class Test
+{
+  int i;
+  void setValue(int i)
+  {
+  this.i=i;
+  }
+  void show()
+  {
+     System.out.println(i);
+  }
+}
+class Xyz
+{
+    public static void main(String args[])
+	{
+	      Test t=new Test();
+		  t.setValue(10);
+		  t.show();
+	}
+}
+2) this keyword can be used to invoke current class.
+(if you don't use this keyword,compiler automatically adds this keyword while invoking the method)
+here in the given program compiler automatically consider it a this keyword in Demo method.)
+class ThisDemo
+{
+   void Demo()
+   {
+     System.out.println("programmers love programming");
+   }
+   void display()
+   {
+      Demo();
+   }
+   public static void main(String args[])
+   {
+       ThisDemo t=new ThisDemo();
+	   t.display()	;
+   }
+}
+
+3. this() keyword can be used to call current class constructor
+  here in the given program this() keyword call the default constructor.
+class ThisDemoo
+{
+     ThisDemoo()
+	 {
+	     this(10);
+		 System.out.println("non parametrizd constructor");
+	 }
+	 ThisDemoo(int a)
+     {
+	    System.out.println("parametrized constructor");
+	 }
+	 public static void main(String args[])
+	 {
+	   ThisDemoo t=new ThisDemoo();
+	  
+	 }
+	 
+	 
+}
+
+
+4.this keyword can be used to pass as an argument in the methid call.
+        class Thiss
+{
+  void m1(Thiss td)
+  {
+    System.out.println("i m in m1 method");
+  }
+  void m2()
+  {
+    m1(this);
+  }
+  public static void main(String args[])
+  {
+     Thiss td=new Thiss();
+	 td.m2();
+  }
+}
+
+5. this keyword can be used to pass as an argument in the constructore call..
+ class Thisss
+{
+   Thisss(ThisDemo td)
+   {
+       System.out.println("test class constructor");
+   }
+}
+class ThisDemo
+{
+   void m1()
+   {
+      Thisss t=new Thisss(this);
+	  
+   }
+   public static void main(String args[])
+   {
+       ThisDemo t=new ThisDemo();
+	   t.m1();
+   }
+}
+
+6. this keyword can be used to return the current class instance from the method
+

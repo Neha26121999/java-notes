@@ -1,0 +1,27 @@
+                          Polymorphism
+polymorphism word is created by two words
+                poly+morphism
+
+           poly means many
+           morphism means forms
+There are two types of polymorphism-
+1.Compile time polymorphism
+1)  static polymorphism(can be achieve through method overloading)
+
+2.Run time polymorphism
+1) Dynamic polymorphism(can be acieve through method overriding)
+
+Method Overloading:
+
+1)  methods are of same name.
+2) methods are of same class.
+3) methods are of different arguments..
+      no. of argument will be differ
+      sequence of argument will be differ
+      type of argument will be differ
+
+Method Overriding:
+
+1)  Methods are of Same name
+2) Different class
+3)  same arguments

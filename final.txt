@@ -1,0 +1,7 @@
+                        Final Keyword
+
+we can use final keyword with class,method.
+1)if we create any final variable, it becomes constant, we cannot change the value of final variable.
+2) if we create any final method,
+we cannot override it..
+3) if we create any final class, we cannot extend it or inherit it.

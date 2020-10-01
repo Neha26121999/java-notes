@@ -1,0 +1,23 @@
+                String Constant Pool
+
+SCP is an area in hea memory where java stores String literal values.
+In jvm there are 6 areas for stotage 
+1.Method area
+2.Heap Area
+3.PC Register
+4. Stack Register
+5. Native method area
+
+Till java version 1.6 SCP are located in Method Area.
+After  1.6 version SCP are located in Heap Area beacuse in method area the size of SCP remains constant but in Heap SCP increase or decrease its size.
+
+In string we will create two types of objects
+
+1. String s1 = new  String("neha");
+Isme ek object to heap memory mai create hoga new keyword kii wajah se joki heap memory mai allocate hota hai. aur dusra kuki String object hai isliye String constant pool mai create hoga.aur SCP heap memory mai hii hota hai
+mtlb isme 2 object banenge
+
+2. String s2="neha"
+isme 1 hii object banega jo SCP mai allocate hoga.kuki isme new keyword use nii hua hai to heap mai koi allocate nii hoga.
+SCP ke case mai garbage collection applicable nii hota kuki jvm internally point karra hota hai. garbage collection heap mai hota hai kuki agar wha koi object banta hai aur agar koi use point nhii karta to garbage collector use delete kar deta hai.
+1. ScP ke andar same name ke object create nii ho sakta.

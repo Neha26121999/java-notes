@@ -1,0 +1,28 @@
+                                                                                            OOPS
+full form: object oriented programming structure/System
+
+Definition: OOPs is a programming paradigm(way of doing any work) /methodology..
+
+There are 6 pillors of oops...
+1.class
+2.objects and methods
+3.inheritance
+4. polymorphism
+5.Abstraction
+6.Encapsulation
+
+what is oops??
+1)  class is a collection of objects
+2)  class is not a real world entity it is just a template or blueprint or prototype.
+Example:  Animal,birds etc
+                 Animal is a class and dog is a  object.
+3)  class does not occupy memory.
+
+Syntax:
+   accessModifier Class ClassName{
+            method
+            constructor
+             fields
+             blocks
+             nested class
+}

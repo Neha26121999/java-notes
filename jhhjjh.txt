@@ -1,0 +1,2 @@
+                              Throw Keyword
+Throw keyword is basically ussed for user defined exception.Throw keyword cannot handle the exception but it create only the object..

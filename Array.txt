@@ -1,0 +1,34 @@
+                                                                                     Array
+Arrays are used for store the value of more and more variables.Agar hum saare variables ko declare karenge alag alag
+to hmara project bahut heavy ho jyega..isliye multiple variables kii value ek variable mai store karne ke liye array ka use hota hai..
+Array ek baar hii memory heap main memory allocate kar leta hai according to hum jitna size dete hai utne.jabki agar hum alag alag variable declare karenge to wo alag alag memory ko allocate karenge..
+
+                                                                               Features of Array
+
+1)In Array we can access the values with the help of its index..and index starts from 0..
+
+2) In java Arrays are objects because we will use new keyword.
+                          int emp_id[ ]=new int[1000]
+3)beacuse we have object than its class also exist..so super class of this object is predefined Object class.
+
+4)Array object occupy the memory which is heap memory.
+
+                                                                             Advantages of Array
+
+1) the main Advantage of array is it will store multiple values at one time..
+2) Another Advantage is arrays are fast in comparison to primitve data type because in primitive types there exist internal comversion using wrapper class..but there is internal conversion in array.it will execute directly..
+3) We can also store the objects in array
+
+                                                                         Disadvantages of array
+
+1) The main disadvantage of array is we have to fix the size of array.we cannot increase or decrease the size of array at run time..
+2) if we have values less than the size of array than the unoccupied space(memory) will be waste.
+3)we can only store similar types of data types in array.
+
+
+
+
+
+
+
+ 

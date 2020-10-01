@@ -1,0 +1,33 @@
+                           Object
+
+1. Object is an instance of class.
+2. Object is real world entity.
+3. Object occupies memory.
+
+Objects consist of:
+1.  Identity - name (every object have unique name)
+2.  State/Attribute - color,breed,age
+3.  Behaviour - Eat,run,bark
+
+How to create an object:
+1. new keyword
+2. newInstance()method 
+3. clone method
+4. Deserialization factory method
+
+steps of creating the object with the new keyword:
+1) Declaration : It is declaring a variable name with an object type
+example: Animal buzo;(where Animal is classname and buzo is reference variable name or object name)
+
+2. Instantiation : 
+1. This is when memory is allocated for an object.
+2. The new keyword is used to create the object.
+3. A reference to the object that was created is returned from the new keyword.
+example : buzo= new
+
+3.Initialization: 
+      After Instantiation Initialization complete the formation of object
+  buzo= new Animal();(we will create the constructor of class)
+
+
+

@@ -1,0 +1,14 @@
+                 Important features of String class
+1. SCP
+
+2. Immutable objects: The String objeccts are immutable which means once strinf object is created its data or state cannot be changed but a new string object is created.
+
+3. + opeartor for strings: Multiple strings can be concatinated using + operator
+
+4. Security: The parametres used for network connection, database connections URL ,username,passwords etc are represented in strings. If it was mutable these parameters could be changed easily.
+
+5. Class loading : string is used as an aruments for class loading. if mutable it could result in the wrong class bei g loaded.(beacuse mutable objects change their state)
+
+6. Synchronization and concurrency: Making string immutable automatically makes them thread safe therbe solving and synchronizations state.
+
+7. Memory management: when compileer optimizes our string objects it seems that if two objects have the same value and thus we need only one string object (for both a and b these two two will point to the same object)

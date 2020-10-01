@@ -1,0 +1,7 @@
+                      Static block
+
+static block executes automatically
+when class is loaded..there is no need to be call.
+
+1.static block is use to initialize the static memeber.
+2.

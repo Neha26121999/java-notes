@@ -1,0 +1,45 @@
+                                                   Methods of string class
+
+1. isEmpty(): This method return a boolean value.means True or false.
+
+2. length() : length method gives the integer output.
+
+3. trim(): trim method of string class eliminates only leading and trailing spaces.This method in jav checks this unicode valuebefore and after the string if it exists then removes the spaces and return the ommitted string.
+
+4. equals() : This method gives a boolean output true or false.but this method treats lowercase and uppercase different.means Neha and neha is different.so we will use another metrhod
+
+5.equalsIgnoreCase():not consider uppercase ans lowercase different.
+
+6. compareTo(): find the decimal difference value of two string
+
+7.compareToIgnoreCase(): not consider uppercase ans lowercase different.
+
+8. subSequence(beginIndex,EndIndex) : This method is used to find the substring from string.
+
+9. join(delimiter,string): this method seprate the strings according to the delimiter.
+
+10.substring(start, end+1):
+
+11. replace("kisko","kisse")
+
+12.replaceFirst("firsttimeoccurwordkoreplacekaro","isse")
+
+13. replaceAll("kisko","kisse"): isme aur replace mai ye difference hai kii kisko kii jagah regular expression bhi pass kar sakte hai.
+
+14. indexOf('char'): the index of method returns the position of tthe first occurance of specified charater if character does not occur it returns -1.
+
+15. lastIndexOf('char'): last se index find karta hai.
+
+16.charAt(integer): return charcter
+
+17. contains("char") : returns boolean
+
+18.startswith("char"): return  boolean
+
+19.endswith("char"): return boolean
+
+20. toUpparCase(): convert in uppar case
+
+21. to LowerCase(): convert to lower case
+
+22. valueOf() : this method converts different types of values into string. By the help of String.valueOf() method we can convert int , float ,double any other type into string.
